@@ -43,7 +43,7 @@
             this.label1.ForeColor = System.Drawing.Color.OliveDrab;
             this.label1.Location = new System.Drawing.Point(447, 132);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(113, 13);
+            this.label1.Size = new System.Drawing.Size(113*2, 13*2);
             this.label1.TabIndex = 0;
             this.label1.Text = "by Michael Oborne";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -54,7 +54,7 @@
             this.TXT_version.ForeColor = System.Drawing.Color.White;
             this.TXT_version.Location = new System.Drawing.Point(403, 107);
             this.TXT_version.Name = "TXT_version";
-            this.TXT_version.Size = new System.Drawing.Size(155, 25);
+            this.TXT_version.Size = new System.Drawing.Size(155*2, 25*2);
             this.TXT_version.TabIndex = 1;
             this.TXT_version.Text = "Version: ";
             this.TXT_version.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -63,8 +63,8 @@
             // 
             this.pictureBox1.Location = new System.Drawing.Point(207, 25);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(351, 89);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.Size = new System.Drawing.Size(351*2, 89*2);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom*2;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Visible = false;
@@ -74,7 +74,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackgroundImage = global::MissionPlanner.Properties.Resources.splashdark;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(584, 337);
+            this.ClientSize = new System.Drawing.Size(584*2, 337*2);
             this.ControlBox = false;
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.TXT_version);
@@ -82,9 +82,9 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(600, 375);
+            this.MaximumSize = new System.Drawing.Size(600*2, 375*2);
             this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(600, 375);
+            this.MinimumSize = new System.Drawing.Size(600*2, 375*2);
             this.Name = "Splash";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Mission Planner";

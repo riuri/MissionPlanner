@@ -75,10 +75,7 @@ namespace BSE.Windows.Forms
         {
             if (panelColors == null)
             {
-                throw new ArgumentNullException("panelColors",
-                    string.Format(System.Globalization.CultureInfo.InvariantCulture,
-                    BSE.Windows.Forms.Properties.Resources.IDS_ArgumentException,
-                    "panelColors"));
+                throw new ArgumentNullException("panelColors","nada");
             }
 
             PanelStyle panelStyle = panelColors.PanelStyle;
@@ -94,10 +91,7 @@ namespace BSE.Windows.Forms
         {
             if (panelColors == null)
             {
-                throw new ArgumentNullException("panelColors",
-                    string.Format(System.Globalization.CultureInfo.InvariantCulture,
-                    BSE.Windows.Forms.Properties.Resources.IDS_ArgumentException,
-                    "panelColors"));
+                throw new ArgumentNullException("panelColors", "nada");
             }
 
 			ArrayList panels = FindPanels(true, controls);

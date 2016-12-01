@@ -46,12 +46,9 @@
     <WarningLevel>4</WarningLevel>
     <Optimize>false</Optimize>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject />
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="log4net">
-      <HintPath>..\extLibs\log4net.dll</HintPath>
+      <HintPath>..\ExtLibs\log4net.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -65,7 +62,7 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="ZedGraph">
-      <HintPath>..\extLibs\ZedGraph.dll</HintPath>
+      <HintPath>..\ExtLibs\ZedGraph.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -103,10 +100,6 @@
     <Compile Include="..\Radio\Sikradio.cs">
       <Link>Linked\Sikradio.cs</Link>
       <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="..\Radio\Sikradio.designer.cs">
-      <Link>Linked\Sikradio.designer.cs</Link>
-      <DependentUpon>Sikradio.cs</DependentUpon>
     </Compile>
     <Compile Include="..\Radio\Uploader.cs">
       <Link>Linked\Uploader.cs</Link>
@@ -232,6 +225,10 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <None Include="Resources\Sik.psd" />
+    <Compile Include="..\Radio\Sikradio.Designer.cs">
+      <DependentUpon>Sikradio.cs</DependentUpon>
+      <Link>Linked\Sikradio.designer.cs</Link>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">

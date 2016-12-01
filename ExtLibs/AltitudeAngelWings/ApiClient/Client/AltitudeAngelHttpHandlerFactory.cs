@@ -35,7 +35,7 @@ namespace AltitudeAngelWings.ApiClient.Client
         ///     Create the message handler. Modify this to support different scopes.
         /// </summary>
         /// <returns></returns>
-        public override HttpMessageHandler CreateMessageHandler()
+        /*public override HttpMessageHandler CreateMessageHandler()
         {
             _handlerInfo = ApiOAuthClientHandler.Create(
                 _authUrl, ConfigurationManager.AppSettings["ClientId"], ConfigurationManager.AppSettings["ClientSecret"],
@@ -43,7 +43,7 @@ namespace AltitudeAngelWings.ApiClient.Client
 				new WpfAuthorizeDisplay());
                 
             return _handlerInfo.ClientHandler;
-        }
+        }*/
         
         /// <summary>
         ///     Clear any pre-existing auth state. Will force log on the next time this handler is used for a request.

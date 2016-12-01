@@ -125,34 +125,34 @@
     <value>127, 17</value>
   </data>
   <data name="autoHideToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>181, 22</value>
+    <value>181, 44</value>
   </data>
   <data name="autoHideToolStripMenuItem.Text" xml:space="preserve">
     <value>AutoHide</value>
   </data>
   <data name="fullScreenToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>181, 22</value>
+    <value>181, 44</value>
   </data>
   <data name="fullScreenToolStripMenuItem.Text" xml:space="preserve">
     <value>Full Screen</value>
   </data>
   <data name="readonlyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>181, 22</value>
+    <value>181, 44</value>
   </data>
   <data name="readonlyToolStripMenuItem.Text" xml:space="preserve">
     <value>Readonly</value>
   </data>
   <data name="connectionOptionsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>181, 22</value>
+    <value>181, 44</value>
   </data>
   <data name="connectionOptionsToolStripMenuItem.Text" xml:space="preserve">
     <value>Connection Options</value>
   </data>
   <data name="CTX_mainmenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>182, 92</value>
+    <value>182, 184</value>
   </data>
   <data name="&gt;&gt;CTX_mainmenu.Name" xml:space="preserve">
-    <value>CTX_mainmenu</value>
+  	<value>CTX_mainmenu</value>
   </data>
   <data name="&gt;&gt;CTX_mainmenu.Type" xml:space="preserve">
     <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -726,10 +726,10 @@
     <value>4, 4, 4, 4</value>
   </data>
   <data name="panel1.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>133332, 123</value>
+    <value>133332, 246</value>
   </data>
   <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>953, 70</value>
+    <value>953, 140</value>
   </data>
   <data name="panel1.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>

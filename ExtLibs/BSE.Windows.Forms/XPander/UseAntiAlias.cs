@@ -27,10 +27,7 @@ namespace BSE.Windows.Forms
       {
          if(graphics == null)
          {
-            throw new ArgumentNullException("graphics",
-               string.Format(System.Globalization.CultureInfo.InvariantCulture,
-               BSE.Windows.Forms.Properties.Resources.IDS_ArgumentException,
-               "graphics"));
+            throw new ArgumentNullException("graphics","nada");
          }
 
          this.m_graphics = graphics;

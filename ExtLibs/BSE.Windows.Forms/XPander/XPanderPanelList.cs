@@ -9,7 +9,7 @@ using System.Drawing.Drawing2D;
 using System.Data;
 using System.Windows.Forms;
 
-using BSE.Windows.Forms.Properties;
+//using BSE.Windows.Forms.Properties;
 
 namespace BSE.Windows.Forms
 {
@@ -391,10 +391,7 @@ namespace BSE.Windows.Forms
       {
          if(panel == null)
          {
-            throw new ArgumentNullException("panel",
-               string.Format(System.Globalization.CultureInfo.InvariantCulture,
-               BSE.Windows.Forms.Properties.Resources.IDS_ArgumentException,
-               "panel"));
+            throw new ArgumentNullException("panel","nada");
          }
 
          XPanderPanel xpanderPanel = panel as XPanderPanel;

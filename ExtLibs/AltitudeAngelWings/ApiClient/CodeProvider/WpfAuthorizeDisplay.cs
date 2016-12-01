@@ -1,8 +1,8 @@
 using System;
 using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Navigation;
+//using System.Windows.Controls;
+//using System.Windows.Navigation;
 using AltitudeAngelWings.ApiClient.Client;
 
 namespace AltitudeAngelWings.ApiClient.CodeProvider
@@ -10,7 +10,7 @@ namespace AltitudeAngelWings.ApiClient.CodeProvider
     /// <summary>
     ///     Provides auth code URIs from an auth URI.
     /// </summary>
-    public class WpfAuthorizeDisplay : Window, IAuthorizeCodeProvider
+    /*public class WpfAuthorizeDisplay : Window, IAuthorizeCodeProvider
     {
         /// <summary>
         ///     Constructor. Ensure this is called from the UI thread.
@@ -53,5 +53,5 @@ namespace AltitudeAngelWings.ApiClient.CodeProvider
         private readonly TaskCompletionSource<Uri> _tcs = new TaskCompletionSource<Uri>();
         private Uri _redirectUri;
         private readonly WebBrowser _webBrowser;
-    }
+    }*/
 }

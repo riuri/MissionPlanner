@@ -12,10 +12,10 @@ namespace AltitudeAngelWings
             return source.Subscribe(i => onNextAsync(i).Wait());
         }
 
-        public static IDisposable SubscribeVisualState<T>(this IObservable<T> source, FrameworkElement stateElement)
+        /*public static IDisposable SubscribeVisualState<T>(this IObservable<T> source, FrameworkElement stateElement)
         {
             return source.ObserveOnDispatcher()
                          .Subscribe(state => VisualStateManager.GoToElementState(stateElement, state.ToString(), true));
-        }
+        }*/
     }
 }

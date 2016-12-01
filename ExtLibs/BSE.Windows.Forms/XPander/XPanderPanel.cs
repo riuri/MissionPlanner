@@ -6,7 +6,7 @@ using System.Drawing.Drawing2D;
 using System.Data;
 using System.Windows.Forms;
 using System.ComponentModel.Design;
-using BSE.Windows.Forms.Properties;
+//using BSE.Windows.Forms.Properties;
 
 namespace BSE.Windows.Forms
 {
