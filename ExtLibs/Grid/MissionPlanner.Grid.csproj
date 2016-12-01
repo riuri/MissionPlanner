@@ -90,6 +90,9 @@
     <Reference Include="System.Threading.Tasks, Version=2.6.10.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
       <HintPath>..\..\packages\Microsoft.Bcl.1.1.10\lib\net40\System.Threading.Tasks.dll</HintPath>
     </Reference>
+    <Reference Include="MissionPlanner">
+      <HintPath>..\..\..\..\..\..\run\media\iurirs\BOOTCAMP\Program Files %28x86%29\Mission Planner\MissionPlanner.exe</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Grid.cs" />
@@ -101,53 +104,6 @@
     </Compile>
     <Compile Include="GridPlugin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\MissionPlanner.csproj">
-      <Project>{A2E22272-95FE-47B6-B050-9AE7E2055BF5}</Project>
-      <Name>MissionPlanner</Name>
-      <Private>False</Private>
-    </ProjectReference>
-    <ProjectReference Include="..\Comms\MissionPlanner.Comms.csproj">
-      <Project>{825E7A10-390C-4A2B-B3A8-491D14966912}</Project>
-      <Name>MissionPlanner.Comms</Name>
-      <Private>False</Private>
-    </ProjectReference>
-    <ProjectReference Include="..\Controls\MissionPlanner.Controls.csproj">
-      <Project>{C8B88795-6D01-494D-83AD-6944BD4C5023}</Project>
-      <Name>MissionPlanner.Controls</Name>
-      <Private>False</Private>
-    </ProjectReference>
-    <ProjectReference Include="..\GeoUtility\GeoUtility.csproj">
-      <Project>{7F7994CE-823F-4A04-BBEA-D0A3808FF56D}</Project>
-      <Name>GeoUtility</Name>
-      <Private>False</Private>
-    </ProjectReference>
-    <ProjectReference Include="..\GMap.NET.Core\GMap.NET.Core.csproj">
-      <Project>{D0C39D9D-BED0-418B-9A5E-713176CAF40C}</Project>
-      <Name>GMap.NET.Core</Name>
-      <Private>False</Private>
-    </ProjectReference>
-    <ProjectReference Include="..\GMap.NET.WindowsForms\GMap.NET.WindowsForms.csproj">
-      <Project>{E06DEF77-F933-42FB-AFD7-DB2D0D8D6A98}</Project>
-      <Name>GMap.NET.WindowsForms</Name>
-      <Private>False</Private>
-    </ProjectReference>
-    <ProjectReference Include="..\Mavlink\MAVLink.csproj">
-      <Project>{20296734-5F3C-4593-A0D5-DD20B440B13A}</Project>
-      <Name>MAVLink</Name>
-      <Private>False</Private>
-    </ProjectReference>
-    <ProjectReference Include="..\MetaDataExtractorCSharp240d\MetaDataExtractor.csproj">
-      <Project>{B46F6C6C-9184-41AF-8F8B-E0084752CA7C}</Project>
-      <Name>MetaDataExtractor</Name>
-      <Private>False</Private>
-    </ProjectReference>
-    <ProjectReference Include="..\Utilities\MissionPlanner.Utilities.csproj">
-      <Project>{1378A66C-38E4-46F5-A05F-DC04EF7D4D16}</Project>
-      <Name>MissionPlanner.Utilities</Name>
-      <Private>False</Private>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="GridUI.resx">
@@ -178,4 +134,34 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  <ItemGroup>
+    <ProjectReference Include="..\GMap.NET.Core\GMap.NET.Core.csproj">
+      <Project>{D0C39D9D-BED0-418B-9A5E-713176CAF40C}</Project>
+      <Name>GMap.NET.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GMap.NET.WindowsForms\GMap.NET.WindowsForms.csproj">
+      <Project>{E06DEF77-F933-42FB-AFD7-DB2D0D8D6A98}</Project>
+      <Name>GMap.NET.WindowsForms</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utilities\MissionPlanner.Utilities.csproj">
+      <Project>{1378A66C-38E4-46F5-A05F-DC04EF7D4D16}</Project>
+      <Name>MissionPlanner.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Controls\MissionPlanner.Controls.csproj">
+      <Project>{C8B88795-6D01-494D-83AD-6944BD4C5023}</Project>
+      <Name>MissionPlanner.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Comms\MissionPlanner.Comms.csproj">
+      <Project>{825E7A10-390C-4A2B-B3A8-491D14966912}</Project>
+      <Name>MissionPlanner.Comms</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Mavlink\MAVLink.csproj">
+      <Project>{20296734-5F3C-4593-A0D5-DD20B440B13A}</Project>
+      <Name>MAVLink</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MetaDataExtractorCSharp240d\MetaDataExtractor.csproj">
+      <Project>{B46F6C6C-9184-41AF-8F8B-E0084752CA7C}</Project>
+      <Name>MetaDataExtractor</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>

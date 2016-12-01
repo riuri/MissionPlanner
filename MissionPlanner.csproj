@@ -4143,7 +4143,7 @@
       <Name>Core</Name>
     </ProjectReference>
     <ProjectReference Include="ExtLibs\GDAL\GDAL.csproj">
-      <Project>{766fcf85-4809-44db-b316-6c4902c65245}</Project>
+      <Project>{766FCF85-4809-44DB-B316-6C4902C65245}</Project>
       <Name>GDAL</Name>
     </ProjectReference>
     <ProjectReference Include="ExtLibs\GeoUtility\GeoUtility.csproj">
@@ -4194,6 +4194,10 @@
       <Project>{2541686B-1673-43BF-AF89-3163945DB009}</Project>
       <Name>ZedGraph</Name>
       <EmbedInteropTypes>False</EmbedInteropTypes>
+    </ProjectReference>
+    <ProjectReference Include="ExtLibs\Grid\MissionPlanner.Grid.csproj">
+      <Project>{A01404DF-CB52-4CCC-AD17-0F815D533D98}</Project>
+      <Name>MissionPlanner.Grid</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
