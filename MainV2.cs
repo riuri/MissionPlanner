@@ -701,6 +701,18 @@ namespace MissionPlanner
                 CustomMessageBox.Show("A Major error has occured : " + e.ToString());
                 Application.Exit();
             }
+
+            // load old config
+            if (Settings.Instance["advancedview"] != null)
+            {
+                if (Settings.Instance.GetBoolean("advancedview") == true)
+                {
+                    DisplayConfiguration = new DisplayView().Advanced();
+                }
+                // remove old config
+                Settings.Instance.Remove("advancedview");
+            }
+
             //// load this before the other screens get loaded
             if (Settings.Instance["displayview"] != null)
             {
@@ -941,6 +953,10 @@ namespace MissionPlanner
 
         public void switchicons(menuicons icons)
         {
+            // dont update if no change
+            if (displayicons.GetType() == icons.GetType())
+                return;
+
             displayicons = icons;
 
             MainMenu.BackColor = SystemColors.MenuBar;
@@ -3312,8 +3328,19 @@ namespace MissionPlanner
                     }
 
                     break;
-                default:
+                case 0x86: // WM_NCACTIVATE
+                    //var thing = Control.FromHandle(m.HWnd);
 
+                    var child = Control.FromHandle(m.LParam);
+
+                    if (child is Form)
+                    {
+                        log.Debug("ApplyThemeTo " + child.Name);
+                        ThemeManager.ApplyThemeTo(child);
+                    }
+                    break;
+                default:
+                    //Console.WriteLine(m.ToString());
                     break;
             }
             base.WndProc(ref m);
