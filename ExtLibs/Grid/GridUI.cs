@@ -1572,15 +1572,15 @@ namespace MissionPlanner
                     {
                         if (plugin.Host.cs.firmware == MainV2.Firmwares.ArduCopter2)
                         {
-                            var wpno = plugin.Host.AddWPtoList(MAVLink.MAV_CMD.TAKEOFF, 20, 0, 0, 0, 0, 0,
-                                (int) (30*CurrentState.multiplierdist), gridobject);
+                            var wpno = plugin.Host.AddWPtoList(MAVLink.MAV_CMD.TAKEOFF, 30, 0, 0, 0, 0, 0,
+                                (int) (70*CurrentState.multiplierdist), gridobject);
 
                             wpsplitstart.Add(wpno);
                         }
                         else
                         {
-                            var wpno = plugin.Host.AddWPtoList(MAVLink.MAV_CMD.TAKEOFF, 20, 0, 0, 0, 0, 0,
-                                (int) (30*CurrentState.multiplierdist), gridobject);
+                            var wpno = plugin.Host.AddWPtoList(MAVLink.MAV_CMD.TAKEOFF, 30, 0, 0, 0, 0, 0,
+                                (int) (70*CurrentState.multiplierdist), gridobject);
 
                             wpsplitstart.Add(wpno);
                         }
