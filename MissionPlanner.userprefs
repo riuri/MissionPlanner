@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{A2E22272-95FE-47B6-B050-9AE7E2055BF5}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ExtLibs/GMap.NET.Core/GMap.NET.CacheProviders/MSSQLCEPureImageCache.cs">
+    <Files>
+      <File FileName="ExtLibs/GMap.NET.Core/GMap.NET.CacheProviders/MSSQLCEPureImageCache.cs" Line="3" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.MissionPlanner PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
